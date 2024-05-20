@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TestCaseUserGet - Auth Error</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cc44bfb7-ab6a-4903-ad2a-52bdeac7e05e</testCaseGuid>
-</TestCaseEntity>
