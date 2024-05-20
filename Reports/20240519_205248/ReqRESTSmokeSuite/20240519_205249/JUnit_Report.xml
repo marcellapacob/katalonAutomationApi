@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ReqRESTSmokeSuite" time="1.099" tests="1" failures="0" errors="0">
+   <testsuite name="ReqRESTSmokeSuite" tests="1" failures="0" errors="0" time="1.099" skipped="0" timestamp="19-05-2024T20:52:55" hostname="marcelopacobahyba - localhost" id="Test Suites/ReqRESTSmokeSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/marcelopacobahyba/Documents/side_projects/katalon_tests/my_tests/Reports/20240519_205248/ReqRESTSmokeSuite/20240519_205249"/>
+         <property name="logFiles" value="/Users/marcelopacobahyba/Documents/side_projects/katalon_tests/my_tests/Reports/20240519_205248/ReqRESTSmokeSuite/20240519_205249/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marcelopacobahyba - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/TestCaseUserList200" time="1.037" classname="Test Cases/TestCaseUserList200" status="PASSED">
+         <system-out><![CDATA[19-05-2024T20:52:55 - [TEST_CASE][PASSED] - Test Cases/TestCaseUserList200: Test Cases/TestCaseUserList200
+
+19-05-2024T20:52:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("UserList", ["response":""])): Send request successfully
+
+19-05-2024T20:52:56 - [MESSAGE][INFO] - HAR: /Users/marcelopacobahyba/Documents/side_projects/katalon_tests/my_tests/Reports/20240519_205248/ReqRESTSmokeSuite/20240519_205249/requests/main/0.har
+
+19-05-2024T20:52:56 - [MESSAGE][PASSED] - Send request successfully
+
+19-05-2024T20:52:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200, STOP_ON_FAILURE): Verify response status code successfully
+
+19-05-2024T20:52:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-05-2024T20:52:56 - [TEST_STEP][PASSED] - verifyElementsCount(response, "", 10): Verify element count successfully
+
+19-05-2024T20:52:56 - [MESSAGE][PASSED] - Verify element count successfully
+
+19-05-2024T20:52:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].id", 6914494): Verify element property value successfully
+
+19-05-2024T20:52:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T20:52:55 - [TEST_SUITE][PASSED] - ReqRESTSmokeSuite: Test Cases/TestCaseUserList200]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

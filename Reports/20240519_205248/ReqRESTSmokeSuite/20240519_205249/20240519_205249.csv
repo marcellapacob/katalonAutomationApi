@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ReqRESTSmokeSuite,,,,19-05-2024 20:52:55,19-05-2024 20:52:56,1.099s,PASSED
+,,,,,,,
+Test Cases/TestCaseUserList200,,,,19-05-2024 20:52:55,19-05-2024 20:52:56,1.037s,PASSED
+"response = sendRequest(findTestObject(""UserList"", [""response"":""""]))",,,,19-05-2024 20:52:55,19-05-2024 20:52:56,0.871s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,,19-05-2024 20:52:56,19-05-2024 20:52:56,0.010s,PASSED
+"verifyElementsCount(response, """", 10)",,,,19-05-2024 20:52:56,19-05-2024 20:52:56,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", 6914494)",,,,19-05-2024 20:52:56,19-05-2024 20:52:56,0.018s,PASSED

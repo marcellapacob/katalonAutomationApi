@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ReqRESTSmokeSuite,,,,20-05-2024 22:30:32,20-05-2024 22:30:35,3.386s,FAILED
+,,,,,,,
+Test Cases/TestCaseUserGet - Get id,,,,20-05-2024 22:30:32,20-05-2024 22:30:33,1.000s,PASSED
+"response = sendRequest(findTestObject(""UserById"", [""id"":6914431]))",,,,20-05-2024 22:30:32,20-05-2024 22:30:33,0.869s,PASSED
+"verifyElementPropertyValue(response, ""id"", 6914431)",,,,20-05-2024 22:30:33,20-05-2024 22:30:33,0.028s,PASSED
+,,,,,,,
+Test Cases/TestCaseUserGet - Validate List,,,,20-05-2024 22:30:33,20-05-2024 22:30:33,0.422s,FAILED
+"response = sendRequest(findTestObject(""UserList"", [""variable"":""""]))",,,,20-05-2024 22:30:33,20-05-2024 22:30:33,0.332s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,,20-05-2024 22:30:33,20-05-2024 22:30:33,0.020s,PASSED
+"verifyElementsCount(response, """", 10)",,,,20-05-2024 22:30:33,20-05-2024 22:30:33,0.020s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", 6914494)",,,,20-05-2024 22:30:33,20-05-2024 22:30:33,0.021s,FAILED
+,,,,,,,
+Test Cases/TestCaseUserGet - Id Error,,,,20-05-2024 22:30:33,20-05-2024 22:30:34,0.350s,PASSED
+"response = sendRequest(findTestObject(""UserById"", [""id"":1]))",,,,20-05-2024 22:30:33,20-05-2024 22:30:34,0.316s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.008s,PASSED
+,,,,,,,
+Test Cases/TestCaseUserGet - Auth Error,,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.341s,PASSED
+"response = sendRequest(findTestObject(""GetUserList - 401"", [""variable"":""""]))",,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.306s,PASSED
+"verifyResponseStatusCode(response, 401, STOP_ON_FAILURE)",,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.001s,PASSED
+,,,,,,,
+Test Cases/TestCaseUserPost - Add user,,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.406s,FAILED
+"response = sendRequest(findTestObject(""UserList - Add"", [""data"":""{}""]))",,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.377s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,20-05-2024 22:30:34,20-05-2024 22:30:34,0.007s,FAILED
+,,,,,,,
+Test Cases/TestCaseUserPut - Modify status,,,,20-05-2024 22:30:34,20-05-2024 22:30:35,0.366s,FAILED
+"response = sendRequest(findTestObject(""UserList - Modify status"", [""id"":6917154]))",,,,20-05-2024 22:30:34,20-05-2024 22:30:35,0.329s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,20-05-2024 22:30:35,20-05-2024 22:30:35,0.006s,FAILED
+,,,,,,,
+Test Cases/TestCaseUserDelete - Delete user,,,,20-05-2024 22:30:35,20-05-2024 22:30:35,0.416s,FAILED
+"response = sendRequest(findTestObject(""UserList - Delete"", [""id"":6914438]))",,,,20-05-2024 22:30:35,20-05-2024 22:30:35,0.376s,PASSED
+"verifyResponseStatusCode(response, 204, STOP_ON_FAILURE)",,,,20-05-2024 22:30:35,20-05-2024 22:30:35,0.003s,FAILED

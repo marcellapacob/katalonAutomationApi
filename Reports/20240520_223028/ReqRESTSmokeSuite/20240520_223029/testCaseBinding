@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/TestCaseUserGet - Get id","testCaseId":"Test Cases/TestCaseUserGet - Get id","iterationVariableName":""}
+{"testCaseName":"Test Cases/TestCaseUserGet - Validate List","testCaseId":"Test Cases/TestCaseUserGet - Validate List","iterationVariableName":""}
+{"testCaseName":"Test Cases/TestCaseUserGet - Id Error","testCaseId":"Test Cases/TestCaseUserGet - Id Error","iterationVariableName":""}
+{"testCaseName":"Test Cases/TestCaseUserGet - Auth Error","testCaseId":"Test Cases/TestCaseUserGet - Auth Error","iterationVariableName":""}
+{"testCaseName":"Test Cases/TestCaseUserPost - Add user","testCaseId":"Test Cases/TestCaseUserPost - Add user","iterationVariableName":""}
+{"testCaseName":"Test Cases/TestCaseUserPut - Modify status","testCaseId":"Test Cases/TestCaseUserPut - Modify status","iterationVariableName":""}
+{"testCaseName":"Test Cases/TestCaseUserDelete - Delete user","testCaseId":"Test Cases/TestCaseUserDelete - Delete user","iterationVariableName":""}
