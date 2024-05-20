@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCaseUserDelete - Delete user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b9c4b46-d285-44c3-bd15-81a93088ca66</testCaseGuid>
+</TestCaseEntity>
